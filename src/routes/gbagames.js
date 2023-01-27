@@ -2,7 +2,7 @@ const { Router } = require('express');
 const router = Router();
 const _ = require('underscore');
 
-// Simuled Database
+// Simulated Database
 const gbagames = require('../database/GBAGames.json')
 
 router.get('/', (req, res) => {
