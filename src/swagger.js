@@ -1,7 +1,5 @@
-const { urlencoded } = require('express');
 const swaggerJSDOC = require('swagger-jsdoc');
 const swaggerUI = require('swagger-ui-express');
-const { object } = require('underscore');
 
 // Metadata info about our API
 const options = {
